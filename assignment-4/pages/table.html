@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cricket Information Table with Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <style>
+    .font-italic {
+      font-style: italic;
+    }
+
+    .font-weight-bold {
+      font-weight: bold;
+    }
+
+    .table-custom-header {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    .highlight-row {
+      background-color: #f8f9fa;
+    }
+
+    .table-success-custom {
+      background-color: #d4edda;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <table class="table  table-bordered table-hover">
+      <thead>
+        <tr class="bg-success text-white">
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">1</th>
+          <td>Alice</td>
+          <td>Johnson</td>
+          <td>@alicej</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Michael</td>
+          <td>Smith</td>
+          <td>@msmith</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Samuel L. Jackson</td>
+          <td>@samjackson</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Emma</td>
+          <td>Williams</td>
+          <td>@emma_w</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>David</td>
+          <td>Brown</td>
+          <td>@dbrown</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav>
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
